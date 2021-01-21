@@ -23,7 +23,7 @@ spec:
         app: springboot
     spec:
       containers:
-      - image: nayakseenu/my-app:custom
+      - image: nayakseenu/spring-boot:new
         name: springboot
         ports:
         - containerPort: 8080  
